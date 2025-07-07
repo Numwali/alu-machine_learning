@@ -1,5 +1,5 @@
-
-rms pooling on images"""
+#!/usr/bin/env python3
+"""Performs pooling on images"""
 
 import numpy as np
 
