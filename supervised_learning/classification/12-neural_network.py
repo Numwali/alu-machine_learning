@@ -1,4 +1,5 @@
- a neural network"""
+#!/usr/bin/env python3
+"""Defines a neural network"""
 
 import numpy as np
 
