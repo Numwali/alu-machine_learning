@@ -1,5 +1,6 @@
-
-n creates a training operation in tf using RMSProp
+#!/usr/bin/env python3
+"""
+Function creates a training operation in tf using RMSProp
 """
 
 import tensorflow as tf
