@@ -1,5 +1,6 @@
-
-n calculates the weighted moving average of a dataset
+#!/usr/bin/env python3
+"""
+Function calculates the weighted moving average of a dataset
 """
 
 
