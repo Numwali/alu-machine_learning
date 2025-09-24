@@ -1,5 +1,6 @@
-
-n normalizes(standardizes) a matrix
+#!/usr/bin/env python3
+"""
+Function normalizes(standardizes) a matrix
 """
 
 
