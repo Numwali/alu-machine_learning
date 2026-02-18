@@ -1,26 +1,18 @@
 #!/usr/bin/env python3
+'''
+A function def pdf(X, m, S): that calculates
+the probability density function of a Gaussian distribution
+'''
 
-"""
-This module contains a function that calculates
-probability density function of a Gaussian distribution
-"""
 
 import numpy as np
 
 
 def pdf(X, m, S):
-    """
-    initializes variables for a Gaussian Mixture Model
-
-    X: numpy.ndarray (n, d) containing the dataset
-        - n no. of data points
-        - d no. of dimensions for each data point
-    m: numpy.ndarray (d,) mean of the distribution
-    S: numpy.ndarray (d, d) covariance matrix of the distribution
-
-    return:
-        - P: numpy.ndarray (n,) the PDF values for each data point
-    """
+    '''
+    calculates the probability density
+    function of a Gaussian distribution
+    '''
     if not isinstance(X, np.ndarray) or len(X.shape) != 2:
         return None
     if not isinstance(m, np.ndarray) or len(m.shape) != 1:
